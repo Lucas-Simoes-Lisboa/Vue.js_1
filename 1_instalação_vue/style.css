@@ -1,0 +1,61 @@
+@import  url ( 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap' );
+
+: raiz {
+    --bg-gray :  # ddd ;
+    --text-gray : # 4A4A4A ;
+    --color-primary :  # 506A8E ;
+    --branco :  #fff ; _
+    --text-light-gray :  # AAAAAA ;
+    --star-yellow :   # FFBB3A ;
+}
+
+* {
+    margem :  0 ;
+    box-sizing : border-box;
+    font-family :  'Open Sans' , sans-serif;
+}
+
+h1 ,  h2 ,  h3 ,  h5 ,  h6 {
+    margem :  0 ;
+}
+html ,  corpo {
+    cor de fundo :  var ( --bg-gray );
+}
+
+cabeçalho {
+    background-color :  var ( --color-primary );
+    cor :  var ( --branco );
+    altura :  60px ; _
+    exibição : flexível;
+    align-items : centro;
+}
+
+navegação {
+    exibição : flexível;
+    align-items : centro;
+    justificar-conteúdo : espaço entre;
+}
+
+nav  h1 {
+    tamanho da fonte :  24 px ;
+    peso da fonte :  700 ;
+}
+
+navegue  em {
+    tamanho da fonte :  12 px ;
+    peso da fonte :  400 ;
+}
+
+a ,  a : pairar {
+    decoração de texto : nenhuma;
+    cor : não definida;
+}
+
+. dsmovie-contact-container {
+    exibição : flexível;
+    align-items : centro;
+}
+
+. dsmovie-contact-container  img {
+    margem direita :  10 px ;
+}
